@@ -15,3 +15,11 @@
 - sudo apt-cache search clang | less
 - sudo apt-get install clang-12
 - cd /usr/bin && ls
+
+## Setup on macOS
+
+- brew install gcc
+- brew install llvm
+- Copy 'export PATH="/usr/local/opt/llvm/bin:$PATH"' to ~/.bash_profile
+- g++-13 --version
+- clang++ --version
